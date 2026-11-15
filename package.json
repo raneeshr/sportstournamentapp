@@ -1,0 +1,8 @@
+{
+  "name": "sportapp", "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": { "dev": "turbo dev", "build": "turbo build", "lint": "turbo lint", "type-check": "turbo type-check" },
+  "devDependencies": { "turbo": "^2.0.0", "@types/node": "^20", "typescript": "^5.4.0" },
+  "engines": { "node": ">=18.0.0" },
+  "packageManager": "npm@10.0.0"
+}
